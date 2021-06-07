@@ -1,0 +1,84 @@
+/* body{
+    background-color: rgb(156, 48, 48);
+} */
+
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+.loader{
+    display: none;
+    margin: 2rem auto;
+}
+
+a{
+    color: rgb(209, 209, 209);
+    transition:  color .3s ease-out;
+}
+
+a:hover{
+    opacity: .75;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{text-align: center;}
+
+
+
+hr{
+    border: thin solid rgb(33, 2, 145);
+    margin: 3rem auto;
+    width: 90%;
+    
+}
+
+.site{
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 50%;
+    text-align: center;
+}
+
+.post{
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    max-width: 80%;
+    text-align: center;
+    background-color: rgb(194, 161, 233);
+    
+}
+
+.post-author img{
+    border-radius: 50%;
+}
+
+.post-date{
+    display: block;
+    margin: 1rem auto;
+}
+
+.post-content summary{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.post-content > article{
+    padding: 1rem;
+    background-color: rgba(106, 94, 129, 0.445);
+}
+
+.post-content img{display: block;
+margin: auto;}
